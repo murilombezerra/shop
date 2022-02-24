@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+s{
+    color:#BFA130;
+}
+
+.logo{
+    position:absolute;
+    margin: -10px 150px;
+}
+
+.home{
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 200px;
+}
+
+a{
+    padding: 0px 15px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #BFA130;
+}
+
+.l{
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0px 10px;
+}
+
+.l:hover{
+    color: #BFA130;
+}
+
+.c{
+    padding: 10px 10px;
+    margin: -10px 20px;
+    background-color: #BFA130;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.c:hover{
+    background-color: #AB8808;
+}
+
+.meio{
+    display: inline-block;
+    background-color: #BFA130;
+    width: 10000px;
+    height: 400px;
+    background-image: url('/assets/roupa.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    position: relative;
+}
+
+h2{
+    font-size:30px;
+    color: white;
+    text-shadow: 2px 0px 10px black;
+}
+
+.pMeio{
+    margin-left: 125px;
+    margin-top: 14px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    color: white;
+    background-color: #BFA130;
+    display: inline-block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.pMeio:hover{
+    background-color: #AB8808;
+}
+
+.letraMeio{
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 160px;
+}
+
+.meio2{
+    display: flex;
+}
+
+
+img{
+    width: 255px;
+    margin-top: 90px;
+    margin-left: 270px;
+    transition: 0.5s;
+}
+
+img:hover{
+    box-shadow: 10px 10px 10px;
+    transform: scale(1.1);
+}
+
+.para{
+    position: absolute;
+    width: 255px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.meio3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+    text-align:center;
+}
+
+h3{
+    font-size: 40px;
+    color: #AB8808;
+}
+
+#letra{
+    font-size: 30px;
+}
+
+.sobre{
+    text-align: center;
+    margin-top: 170px;
+    padding: 70px;
+}
+
+.contato{
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+    background-color: #AB8808;
+    padding: 30px;
+    color: white;
+    font-size: 24px;
+}
+
